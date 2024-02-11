@@ -25,7 +25,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = "rmtfstate34654353" # REPLACE WITH YOUR BUCKET NAME
+  bucket        = "rmtfstate34657457547547545544554657745754" # REPLACE WITH YOUR BUCKET NAME
   force_destroy = true
 }
 
