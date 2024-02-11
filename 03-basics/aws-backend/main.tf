@@ -21,11 +21,11 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-west-1"
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = "devops-directive-tf-state" # REPLACE WITH YOUR BUCKET NAME
+  bucket        = "rmtfstate34654353" # REPLACE WITH YOUR BUCKET NAME
   force_destroy = true
 }
 
