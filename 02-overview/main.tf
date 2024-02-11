@@ -5,6 +5,14 @@ terraform {
       version = "~> 3.0"
     }
   }
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "devmaybe"
+
+    workspaces {
+      name = "devops-directive-terraform-course"
+    }
+  }
 }
 
 provider "aws" {
